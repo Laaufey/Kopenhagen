@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/swq2mhc.css");
+
+body {
+    font-family: sans-serif;
+}
+
+.logo {
+    height: 7em;
+}
+
+header {
+    height: 7em;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+nav {
+    list-style-type: none;
+    text-transform: uppercase;
+    float: right;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1.5em;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.frontPagePhoto {
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontPageImg{
+     flex-shrink: 0;
+min-height: 100%;
+    min-width: 100%
+}
+
