@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://use.typekit.net/swq2mhc.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/swq2mhc.css">
 </head>
+
 <body>
-<header>
-   <img class="logo" src="logo-04.svg">
-    <nav>
+    <header>
+        <img class="logo" src="logo-04.svg">
+        <nav>
             <li>Artguide</li>
             <li>Archive</li>
             <li>About</li>
-    </nav>
-</header>
-<div class="frontPagePhoto"><img class="frontPageImg" src="Louisiana+230120_002.jpg"></div>
+        </nav>
+    </header>
+    <div class="frontPagePhoto"><img class="frontPageImg" src="Louisiana+230120_002.jpg"></div>
+
+
+
+    <main>
+        <section id="recommendedSubscribe">
+            <div class="recommended">
+                <div class="sectionTitle">Recommended</div>
+                <div class="recommendedHappenings">
+                    <article class="happeningCard">
+                        <div class="img_wrappper">
+                            <img src="img/1.jpg" alt="house" />
+                        </div>
+                        <h3>Tilte</h3>
+                        <h4 class="artist">Artist</h4>
+                        <h4 class="location">Location</h4>
+                        <h4 class="dateStart">Date</h4>
+                        <h4 class="dateEnd">Date</h4>
+                    </article>
+                    <article class="happeningCard">
+                        <div class="img_wrappper">
+                            <img src="img/1.jpg" alt="house" />
+                        </div>
+                        <h3>Tilte</h3>
+                        <h4 class="artist">Artist</h4>
+                        <h4 class="location">Location</h4>
+                        <h4 class="dateStart">Date</h4>
+                        <h4 class="dateEnd">Date</h4>
+                    </article>
+                    <template class="happeningTemplate">
+                        <article class="happeningCard">
+                            <div class="img_wrappper">
+                                <img src="img/1.jpg" alt="house" />
+                            </div>
+                            <h3>Tilte</h3>
+                            <h4 class="artist">Artist</h4>
+                            <h4 class="location">Location</h4>
+                            <h4 class="dateStart">Date</h4>
+                            <h4 class="dateEnd">Date</h4>
+
+                        </article>
+                    </template>
+                </div>
+            </div>
+
+
+            <div class="subscribe">
+               <div class="sectionTitle">Subscribe</div>
+                <p>Subscribe to your newsletter to get the latest events. exibitions and openings delivered to your inbox, each week.</p>
+                <input type="email" id="email" placeholder="Email address" />
+                <button class="signUpBtn">SIGN UP</button>
+            </div>
+
+        </section>
+    </main>
+
 
     <script src="script.js"></script>
-</body></html>
+</body>
+
+</html>
